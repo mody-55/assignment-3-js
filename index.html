@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark</title>
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="n">
+    <div class="container">
+      <h1 class="heaaad d-flex justify-content-center my-5">Bookmarker</h1>
+      
+      <div class="kht my-4 py-4">
+        <div class="iconss d-flex justify-content-center align-items-center">
+          <i class="fa-regular fa-2x fa-bookmark d-flex flex-column  justify-content-center "></i>
+          <h2 class="byfs m-2 ">Bookmark your favorite sites</h2>
+          <i class="fa-regular fa-2x fa-bookmark"></i>
+        </div>
+        <div class="">
+          <label for="siteName"><span><i class="fa-solid mt-5 mb-2 fa-book-bookmark"></i></span> site Name</label>
+          <input type="text" class="form-control w-100 d-flex flex-column  justify-content-center " placeholder="Bookmark Name" id="siteName">
+          <label for="siteUrl"><span><i class="fa-solid mt-5 mb-2 fa-link"></i></span> site URL</label>
+          <input type="text" class="form-control w-100 d-flex flex-column  justify-content-center " placeholder="Website URL"id="siteUrl">
+          <button onclick="productt()" class="d-flex flex-column my-3 justify-content-center btn btn-danger" id="bttnn">Submit</button>
+        </div>
+       
+      </div>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Index </th>
+            <th scope="col">Website Name</th>
+            <th scope="col">Visit</th>
+            <th scope="col">Delete</th>
+          </tr>
+        </thead>
+        <tbody class="hnzwd">
+        
+         
+        </tbody>
+      </table>
+
+
+      
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
